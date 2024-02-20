@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Application</title>
+  <script src="http://localhost:8000/socket.io/socket.io.js"></script> <!-- for client scoket connection -->
+  <script src="js/client.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="messages">
+      <!-- Messages will be displayed here -->
+    </div>
+    <form class="message-form">
+      <input type="text" id="message-input" placeholder="Type your message...">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <!-- <script src="js/script.js"></script> -->
+</body>
+</html>

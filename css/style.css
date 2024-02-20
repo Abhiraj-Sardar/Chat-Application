@@ -1,0 +1,48 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .chat-container {
+    width: 80%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .messages {
+    height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    border: 2px solid red;
+  }
+  
+  .message-form {
+    display: flex;
+  }
+  
+  #message-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  button {
+    background-color: hsl(277, 64%, 61%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: hsl(277, 64%, 55%);
+  }
